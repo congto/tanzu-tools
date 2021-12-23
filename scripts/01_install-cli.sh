@@ -5,6 +5,7 @@ source ${PWD}/00_env.sh
 # Common
 sudo apt-get update
 sudo apt-get -y install curl jq unzip bash-completion dos2unix bash-completion wget 
+sudo apt install open-vm-tools -y
 
 sudo wget https://github.com/mikefarah/yq/releases/download/v4.13.5/yq_linux_amd64 -O /usr/bin/yq 
 sudo chmod +x /usr/bin/yq
