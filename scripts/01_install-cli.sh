@@ -75,9 +75,9 @@ rm tanzu-cli-bundle-linux-amd64.tar
 # Velero
 # https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4/vmware-tanzu-kubernetes-grid-14/GUID-cluster-lifecycle-backup-restore-mgmt-cluster.html#cli
 # https://customerconnect.vmware.com/en/downloads/details?downloadGroup=TKG-140&productId=988&rPId=73652
-gzip -d velero-linux-v1.6.2_vmware.1.gz
-sudo mv velero-linux-v1.6.2_vmware.1 $BIN_FOLDER/velero
-chmod +x $BIN_FOLDER/velero
+# gzip -d velero-linux-v1.6.2_vmware.1.gz
+# sudo mv velero-linux-v1.6.2_vmware.1 $BIN_FOLDER/velero
+# chmod +x $BIN_FOLDER/velero
 
 # Minio
 wget https://dl.min.io/client/mc/release/linux-amd64/mc
