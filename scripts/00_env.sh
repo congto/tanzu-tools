@@ -1,9 +1,9 @@
 ###########################################
 # vSphere
 ###########################################
-export GOVC_URL="vcsa-01.haas-489.pez.vmware.com"
+export GOVC_URL="vcsa-01.xxxxxxxxxxxxx.com"
 export GOVC_USERNAME="administrator@vsphere.local"
-export GOVC_PASSWORD="M8bZ0lzQB1nlswl3NA!"
+export GOVC_PASSWORD="M8bxxxxxxxxxxxxxxxxxxxwl3NA!"
 export GOVC_DATACENTER="Datacenter"
 export GOVC_NETWORK="Extra"
 export GOVC_DATASTORE="LUN01"
@@ -14,7 +14,7 @@ export GOVC_INSECURE=1
 # Jumpbox
 ###########################################
 # Name of the user in the jumpbox VM
-VM_USER=tanzu
+VM_USER=congto
 # Folder to put cli binaries
 BIN_FOLDER=/usr/local/bin/
 # https://kubernetes.io/releases/
@@ -33,8 +33,8 @@ VMD_VERSION=0.3.0
 ###########################################
 # OVAs
 ###########################################
-export VMD_USER=fmartin@vmware.com
-export VMD_PASS=xxx
+export VMD_USER=xxxxxxxxxxxxxxxxxxxx@vmware.com
+export VMD_PASS=xxxxxxxxxxxxxxxxxxxxx
 
 # Photon v3 Kubernetes v1.21.2 OVA
 TKG_VM_DIR="TKG"
@@ -54,7 +54,7 @@ ALB_CONTROLLER_GW=10.213.136.1
 ALB_CONTROLLER_NAME=controller
 # In Pez VM Network is the Management one
 ALB_CONTROLLER_NETWORK="VM Network"
-ALB_SSH_KEY="$(cat ~/.ssh/id_rsa.pub)"
+# ALB_SSH_KEY="$(cat ~/.ssh/id_rsa.pub)"
 
 
 ###########################################
