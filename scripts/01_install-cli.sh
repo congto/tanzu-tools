@@ -9,7 +9,7 @@ sudo apt install open-vm-tools -y
 
 sudo wget https://github.com/mikefarah/yq/releases/download/v4.13.5/yq_linux_amd64 -O /usr/bin/yq 
 sudo chmod +x /usr/bin/yq
-sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' .bashrc
+# sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' .bashrc
 
 # SSH Key
 ssh-keygen -q -b 4096 -t rsa -N '' -f ~/.ssh/id_rsa
