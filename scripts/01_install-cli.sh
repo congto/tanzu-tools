@@ -58,6 +58,7 @@ rm helm-v${HELM_VERSION}-linux-amd64.tar.gz
 # Tanzu
 # https://my.vmware.com/en/web/vmware/downloads/info/slug/infrastructure_operations_management/vmware_tanzu_kubernetes_grid/1_x
 cd ~
+wget http://192.168.20.212/tanzu/tkg1.4/tanzu-cli-bundle-linux-amd64.tar
 mkdir tanzu
 tar xvf tanzu-cli-bundle-linux-amd64.tar -C tanzu 
 cd ~/tanzu/cli 
