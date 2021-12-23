@@ -11,7 +11,7 @@ sudo chmod +x /usr/bin/yq
 sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' .bashrc
 
 # SSH Key
-sh-keygen -q -b 4096 -t rsa -N '' -f ~/.ssh/id_rsa
+ssh-keygen -q -b 4096 -t rsa -N '' -f ~/.ssh/id_rsa
 
 # Kubernetes
 # https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
