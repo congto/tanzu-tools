@@ -95,6 +95,12 @@ cd
 rm -rf kubectx
 
 # Create completions & aliases
+sudo apt-get -y install bash-completion
+source /usr/share/bash-completion/bash_completion 
+type _init_completion  > /dev/null
+echo 'source <(kubectl completion bash)' >> ~/.bashrc
+echo 'source <(tanzu completion bash)' >> ~/.bashrc
+
 # https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/
 sudo kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
 sudo tanzu completion bash | sudo tee /etc/bash_completion.d/tanzu > /dev/null
